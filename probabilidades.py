@@ -17,6 +17,7 @@ def promedio_de_perdida(probabilidad):
         if paquete_consecutivo > max_cantidad_perdido:
             max_cantidad_perdido = paquete_consecutivo
         paquete_consecutivo = 0;
+        
     # devolvemos la probabilidad de huir
     return max_cantidad_perdido
 
